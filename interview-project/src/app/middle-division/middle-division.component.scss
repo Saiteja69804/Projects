@@ -1,0 +1,59 @@
+.middle-container {
+    background-image: url('/assets/Group\ 929.png');
+    height: 150vh;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 1rem;
+    padding-left: 18.75rem;
+}
+
+.dots {
+    margin-left: 1rem;
+    padding-left: 18.75rem;
+}
+
+.headline {
+    font-family: typoround;
+    font-size: 3.438rem;
+    margin-bottom: 0;
+    padding-top: 15.75rem;
+    color: white;
+}
+
+.info {
+    font-family: GothamLight;
+    font-size: 1.375rem;
+    line-height: normal;
+    color: white;
+}
+
+.styled-button {
+    border: none;
+    font-family: GothamLight;
+    width: 8.125rem;
+    font-size: smaller;
+    letter-spacing: 0.163rem;
+    padding: .5rem 1rem;
+    color: white;
+    background: linear-gradient(90deg, #0D70AF 60%, #00000000 60%);
+    margin: 2rem 0 0 19.75rem;
+}
+
+.carouselContainer {
+    position: relative;
+}
+
+.carouselOfCards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15rem;
+    position: absolute;
+    left: -20vw;
+}
+
+.carouselCard {
+    margin:0 4.25rem;
+}

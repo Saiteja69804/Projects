@@ -1,0 +1,14 @@
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import 'fonts';
+
+html, body{
+    margin: 0;
+    background-color: black;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: typoround;
+    color: #fff;
+}
+

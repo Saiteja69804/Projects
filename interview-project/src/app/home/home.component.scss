@@ -1,0 +1,74 @@
+.home-container {
+    background-image: url('/assets/Component\ 1\ –\ 1.png');
+    height: 104vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.top-nav {
+    margin: 0 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0;
+    margin-left: 3.5rem;
+    margin-top: 6rem;
+    height: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    font-family: typoround;
+    margin-top: 6.5rem;
+    padding: 0;
+    display: flex;
+
+    li {
+        margin: 0 2.675rem;
+    }
+}
+
+p {
+    color: white;
+    font-size: 4.875rem;
+    width:max-content;
+    margin: 0 20rem;
+    margin-top: 10rem;
+    line-height: 5.675rem;
+    font-family: typoround;
+}
+
+.styled-button {
+    border: none;
+    font-family: GothamLight;
+    width: 8.125rem;
+    font-size: smaller;
+    letter-spacing: 0.163rem;
+    padding: .5rem 1rem;
+    color: white;
+    background: linear-gradient(90deg, #0D70AF 60%, #00000000 60%);
+    margin-top: 4rem;
+    margin-left: 20rem;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.down-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8rem;
+}

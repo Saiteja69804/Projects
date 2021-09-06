@@ -1,0 +1,13 @@
+<div class="middle-container">
+    <p class="headline">We are <span style="text-decoration: underline;">Purefire</span></p>
+    <img class="dots" src="/assets/Component 26 – 1.svg">
+    <p class="info">We create everlasting digital experiences, solutions that are simple, positive & result driven.<br>We make Digital Experiences that Customers Love.</p>
+    <button class="styled-button">Know More</button>
+    <div>
+        <div class="carouselContainer">
+            <div class="carouselOfCards">
+                    <div class="carouselCard" *ngFor="let card of cards"><app-carousel-card [cardName] = card.cardName [iconUrl] = card.iconUrl [imageUrl] = card.imageUrl></app-carousel-card></div>
+            </div>
+        </div>
+    </div>
+</div>
